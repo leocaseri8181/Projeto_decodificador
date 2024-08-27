@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="Logo.png" alt="Descrição da Imagem" class="logo">
+    </div>
+
+    <div class="container">
+        <div class="texto-container">
+            <textarea id="texto" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="informativo">Por favor, insira apenas letras minúsculas e sem acento.</div>
+            <div class="botao-container">
+                <button id="criptografar">Criptografar</button>
+                <button id="descriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+        <div class="resultado-container">
+            <div class="resultado-conteudo">
+                <img src="pessoa.png" alt="Imagem de Mensagem" class="resultado-imagem" id="imagem-mensagem">
+                <div id="resultado-texto">Nenhuma mensagem encontrada</div>
+            </div>
+            <button id="copiar">Copiar</button>
+        </div>
+
+    <footer>
+        Desenvolvido por Leonardo Caseri
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
